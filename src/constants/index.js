@@ -12,16 +12,17 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
+  aws,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  spectra,
+  wax,
+  wix,
+  acura,
+  libertas,
+  book,
+  dex,
+  catchd,
   threejs,
 } from "../assets";
 
@@ -46,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Blockchain Developer",
     icon: creator,
   },
 ];
@@ -101,8 +102,8 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "aws",
+    icon: aws,
   },
   {
     name: "figma",
@@ -116,55 +117,94 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Front End Developer",
+    company_name: "Browns Colour Plus",
+    icon: wix,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "My first paid project was the development and design of brownscoloursplus website.",
+      " Increased web traffic by improving navigation, creating dynamic media sections and adding social media plugins.",
+      "Delivered innovated technical support to keep clients abreast of industry changes. Did a small amount of SEO.",
+      "I used Wix editor and wix code environment (HTML, CSS, JS) to create a landing page for the clients business.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "Designs by Angelika",
+    icon: html,
+    iconBg: "#383E56",
+    date: "June 2021 - Mar 2022",
+    points: [
+      "Portfolio i designed and developed for an interior designer.   ",
+      "I met with customer to determine and define goals surrounding graphics, design approaches and architecture.",
+      "Delivered innovated technical support to keep clients abreast of industry changes.",
+      "Produced statistical reports for customer. Did some SEO as well",
+    ],
+  },
+  {
+    title: "Front End Developer",
+    company_name: "Flooring Depot",
+    icon: wix,
+    iconBg: "#383E56",
+    date: "June 2021 - Mar 2022",
+    points: [
+      "I used wix editor and used wix code environment (HTML, CSS, JS) to create a landing page for the clients business.",
+      "Mastered web designs from conception to completion and handled graphic design, artwork and digital application.",
+      " Met with customer to determine and define goals surrounding graphics, design approaches and architecture. Great SEO support.",
+      "Created and developed on Wix",
+    ],
+  },
+  {
+    title: "React.js / Blockchain Developer",
+    company_name: "Armies of Power",
+    icon: wax,
+    iconBg: "#383E56",
+    date: "June 2021 - Mar 2022",
+    points: [
+      "Web based NFT centric game. Designed and built a live leaderboard using ReactJS, AWS, Node.js and Demux.",
+      "Gained knowledge of emerging blockchain technologies and vendor products. Created and issued an eosio token for the customer and players.",
+      "Turned the project into a full map based DApp used to stake assets, and view owned NFT bases, troops and gear.",
+      "Developed by myself alongside one other person that I was responsible for hiring.",
+    ],
+  },
+  {
+    title: "Full Stack Web Developer",
+    company_name: "NextGen Agility / Acura",
+    icon: acura,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2020 - Aug 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Designed and built a progressive web application to manage the automotive service workflow start to finish, including a highly configurable inspection / collection UI and Dealer reporting.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Written in ReactJS, using GCP (Firebase, storage).",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Lead Developer",
+    company_name: "Libertas Finance",
+    icon: libertas,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "I along with one other developer created the entire stack for this DAO. ",
+      "The front end was created with Gatsby and ReactJS, the smart contracts written in Solidity and the connectors via Web3 and the WAGMI framework.",
+      "I sourced and hired a logo designer, designed an interview process and coding challenge for new hires, and built a community discord server with bots to manage the operation.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "Spectra Plasmonics",
+    icon: spectra,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "My role involves a blend of front-end and back-end development, ensuring a seamless and efficient user experience.",
+      "Played a pivotal role in designing and implementing a robust web application for Spectra Plasmonics. Focused on creating a user-friendly interface while maintaining high performance and scalability.",
+      "Utilized ReactJS to build responsive and visually appealing front-end architectures. Developed and maintained the server-side logic using Python. Integrated various APIs and managed database interactions to ensure smooth data flow and functionality.",
+      "Leveraged Amazon Web Services (AWS) for hosting the web application. Actively collaborated with cross-functional teams to align the web application with the company’s goals and user needs. Used GitHub for version control, ensuring efficient tracking of changes and collaborative coding.",
     ],
   },
 ];
@@ -198,16 +238,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Medival Story Book",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "3D Web-based platform that allows users to navigate, learn, and enjoy information in an interactive and immersive way. Users can interact with the 3D models by clicking on them or using the keyboard.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -215,41 +255,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: book,
+    source_code_link: "https://github.com/MAussem/medival-story-book",
   },
   {
-    name: "Job IT",
+    name: "Decentralized Exchange",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to buy and sell crypto tokens. The application uses the Decentralized Exchange (DEX) protocol. The DEX protocol enables users to trade crypto tokens without intermediaries.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "alchemy",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dex,
+    source_code_link: "https://github.com/MAussem/DEX",
   },
   {
-    name: "Trip Guide",
+    name: "Catch & Dodge Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This game provides a simple yet engaging gameplay experience where the player needs to catch falling items while avoiding hazards. The increasing adds an addictive element to the game.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -257,7 +297,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: catchd,
     source_code_link: "https://github.com/",
   },
 ];
