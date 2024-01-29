@@ -8,6 +8,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+
+
 const ServiceCard = ({ index, title, icon }) => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -78,9 +80,9 @@ const About = () => {
         I am genuinely excited to expand my knowledge while helping your business create great technology!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className={styles.serviceCardContainer}>
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard className={styles.serviceCard} key={service.title} index={index} {...service} />
         ))}
       </div>
     </>

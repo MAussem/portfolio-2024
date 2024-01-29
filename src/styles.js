@@ -12,6 +12,11 @@ const styles = {
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+    // Style for the container of service cards
+  serviceCardContainer: "mt-20 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4",
+
+  // Style for individual service cards
+  serviceCard: "rounded-lg shadow-md",
 };
 
 export { styles };
