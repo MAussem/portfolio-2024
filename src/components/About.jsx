@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from 'react';
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -7,8 +8,29 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+const ServiceCard = ({ index, title, icon }) => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check screen size to determine if it's a mobile device
+  useEffect(() => {
+    const checkIfMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Check on initial render
+    checkIfMobile();
+
+    // Add event listener for window resize
+    window.addEventListener('resize', checkIfMobile);
+
+    // Cleanup the event listener
+    return () => {
+      window.removeEventListener('resize', checkIfMobile);
+    };
+  }, []);
+
+  // Conditional rendering based on screen size
+  const renderCard = () => (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -32,8 +54,10 @@ const ServiceCard = ({ index, title, icon }) => (
         </h3>
       </div>
     </motion.div>
-  </Tilt>
-);
+  );
+
+  return isMobile ? renderCard() : <Tilt className='xs:w-[250px] w-full'>{renderCard()}</Tilt>;
+};
 
 const About = () => {
   return (
