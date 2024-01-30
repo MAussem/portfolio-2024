@@ -142,19 +142,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full Stack Web Developer",
-    company_name: "NextGen Agility / Acura",
-    icon: acura,
-    iconBg: "#E6DEDD",
-    date: "Oct 2020 - Aug 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Designed and built a progressive web application to manage the automotive service workflow start to finish, including a highly configurable inspection / collection UI and Dealer reporting.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Written in ReactJS, using GCP (Firebase, storage).",
-    ],
-  },
+
   {
     title: "React.js / Blockchain Developer",
     company_name: "Armies of Power",
@@ -169,11 +157,24 @@ const experiences = [
     ],
   },
   {
+    title: "Full Stack Web Developer",
+    company_name: "NextGen Agility / Acura",
+    icon: acura,
+    iconBg: "#E6DEDD",
+    date: "Oct 2020 - Dec 2021",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designed and built a progressive web application to manage the automotive service workflow start to finish, including a highly configurable inspection / collection UI and Dealer reporting.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Written in ReactJS, using GCP (Firebase, storage).",
+    ],
+  },
+  {
     title: "Front End Developer",
     company_name: "Flooring Depot",
     icon: wix,
     iconBg: "#383E56",
-    date: "June 2021 - Mar 2022",
+    date: "Sept 2019 - Nov 2019",
     points: [
       "I used wix editor and used wix code environment (HTML, CSS, JS) to create a landing page for the clients business.",
       "Mastered web designs from conception to completion and handled graphic design, artwork and digital application.",
@@ -186,7 +187,7 @@ const experiences = [
     company_name: "Designs by Angelika",
     icon: html,
     iconBg: "#383E56",
-    date: "June 2021 - Mar 2022",
+    date: "May 2019 - July 2019",
     points: [
       "Portfolio i designed and developed for an interior designer.   ",
       "I met with customer to determine and define goals surrounding graphics, design approaches and architecture.",
@@ -199,7 +200,7 @@ const experiences = [
     company_name: "Browns Colour Plus",
     icon: wix,
     iconBg: "#383E56",
-    date: "June 2021 - Mar 2022",
+    date: "Jan 2019 - Mar 2019",
     points: [
       "My first paid project was the development and design of brownscoloursplus website.",
       " Increased web traffic by improving navigation, creating dynamic media sections and adding social media plugins.",
@@ -215,7 +216,7 @@ const testimonials = [
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
-    company: "Acme Co",
+    company: "123 Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
@@ -223,7 +224,7 @@ const testimonials = [
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
+    company: "123 Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
