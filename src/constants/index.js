@@ -8,12 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  unity,
   tailwind,
   nodejs,
   mongodb,
   aws,
-  figma,
+  unreal,
   docker,
   spectra,
   wax,
@@ -82,10 +82,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -102,12 +98,16 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "aws",
-    icon: aws,
+    name: "Unity",
+    icon: unity,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Unreal Engine",
+    icon: unreal,
+  },
+  {
+    name: "aws",
+    icon: aws,
   },
   {
     name: "docker",
