@@ -121,7 +121,7 @@ const experiences = [
     company_name: "Spectra Plasmonics",
     icon: spectra,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Feb 2024",
     points: [
       "My role involves a blend of front-end and back-end development, ensuring a seamless and efficient user experience.",
       "Played a pivotal role in designing and implementing a robust web application for Spectra Plasmonics. Focused on creating a user-friendly interface while maintaining high performance and scalability.",
