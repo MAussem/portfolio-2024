@@ -20,6 +20,8 @@ import {
   wix,
   acura,
   libertas,
+  wavve,
+  artlet,
   book,
   dex,
   catchd,
@@ -117,6 +119,42 @@ const technologies = [
 
 const experiences = [
   {
+    title: "VentureCo",
+    company_name: "VentureCo",
+    icon: html,
+    iconBg: "#E6DEDD",
+    date: "Spring 2024 – Current",
+    points: [
+      "Mobile based venture for resource management in the construction industry. Final product name TBD",
+      "React Native, React.js, Node/Typescript, AppWrite",
+      "Design, front-end and back-end development for a mobile app aimed at a workflow to bring customers and resources together",
+    ],
+  },
+  {
+    title: "Wavve Boating",
+    company_name: "Wavve Boating",
+    icon: wavve,
+    iconBg: "#E6DEDD",
+    date: "Spring 2024 – Current - Contract",
+    points: [
+      "Mobile based commercial product in the recreational boating space",
+      "Postgres, Python/Django, Node.js",
+      "Backend developer on a wholistic backend upgrade/migration initiative",
+    ],
+  },
+  {
+    title: "Artlet",
+    company_name: "Artlet",
+    icon: artlet,
+    iconBg: "#E6DEDD",
+    date: "Fall 2023 - Current",
+    points: [
+      "Mobile and Web based early-stage venture for the art industry",
+      "Flutter/Dart, React.js, Postgres",
+      "Design, front-end and back-end development, ensuring a scalable engaging user experience",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Spectra Plasmonics",
     icon: spectra,
@@ -195,19 +233,19 @@ const experiences = [
       "Produced statistical reports for customer. Did some SEO as well",
     ],
   },
-  {
-    title: "Front End Developer",
-    company_name: "Browns Colour Plus",
-    icon: wix,
-    iconBg: "#383E56",
-    date: "Jan 2019 - Mar 2019",
-    points: [
-      "My first paid project was the development and design of brownscoloursplus website.",
-      " Increased web traffic by improving navigation, creating dynamic media sections and adding social media plugins.",
-      "Delivered innovated technical support to keep clients abreast of industry changes. Did a small amount of SEO.",
-      "I used Wix editor and wix code environment (HTML, CSS, JS) to create a landing page for the clients business.",
-    ],
-  },
+  // {
+  //   title: "Front End Developer",
+  //   company_name: "Browns Colour Plus",
+  //   icon: wix,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2019 - Mar 2019",
+  //   points: [
+  //     "My first paid project was the development and design of brownscoloursplus website.",
+  //     " Increased web traffic by improving navigation, creating dynamic media sections and adding social media plugins.",
+  //     "Delivered innovated technical support to keep clients abreast of industry changes. Did a small amount of SEO.",
+  //     "I used Wix editor and wix code environment (HTML, CSS, JS) to create a landing page for the clients business.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

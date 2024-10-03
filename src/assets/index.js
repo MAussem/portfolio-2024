@@ -26,6 +26,8 @@ import libertas from "./company/libertas.png";
 import wax from "./company/wax.png";
 import wix from "./company/wix.png";
 import acura from "./company/acura.png";
+import artlet from "./company/artlet.png";
+import wavve from "./company/wavve.jpg";
 
 import book from "./book.png";
 import dex from "./dex.png";
@@ -55,6 +57,8 @@ export {
   threejs,
   spectra,
   libertas,
+  wavve,
+  artlet,
   wax,
   wix,
   acura,

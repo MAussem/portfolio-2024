@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from 'react';
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
